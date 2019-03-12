@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <HelloWorld msg="Other"/>
-    <button @click="log">button</button>
     <pre>{{ $route.query }}</pre>
+    <button @click="log">button</button>
   </div>
 </template>
 
